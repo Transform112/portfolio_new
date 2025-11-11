@@ -1,0 +1,181 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --dark-color : #006568;
+    --light-color : #29979A;
+    --bg-color : #FFF7DE;
+    --text-dark : #002D2F;
+    --text-medium : #005255;
+    --text-light : #FFF7DD;
+}
+
+body>img{
+    /* background: url(./bg.png); */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+/* navbar start */
+.navbar{
+    z-index: 999;
+    position: sticky;
+    margin: 0 10vw 0 10vw;
+    top: 0;
+    width: 80vw;
+    border-bottom: 1px solid var(--text-dark);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5rem;
+    backdrop-filter: blur(100px);
+}
+.navbar .nav-links ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.navbar .nav-links ul li{
+    list-style: none;
+    font-family: "Amarante", serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+.navbar .nav-links ul li a{
+    text-decoration: none;
+    color: var(--text-dark);
+}
+.navbar .logo {
+    margin-left: 1rem;
+}
+.navbar .logo .text-portfolio{
+    font-family: "Fleur De Leah", cursive;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.navbar .btn-wrap{
+    margin-right: 1rem;
+}
+.navbar .btn-wrap .btn-nav{
+    background-color: var(--dark-color);
+    border: 1px solid var(--text-dark);
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    color: var(--text-light);
+    font-family: "Amarante", serif;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+.navbar .toggler{
+    display: none;
+}
+/* navbar end */
+
+
+/* hero section start */
+.wrapper{
+    display: flex;
+}
+.wrapper .left-wrapper{
+    /* border: 1px solid var(--text-dark); */
+    width: 60%;
+    height: 100vh;
+}
+.wrapper .left-wrapper .top-section{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 60%;
+
+}
+.wrapper .left-wrapper .top-section .right-text{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 4rem;
+    
+}
+.wrapper .left-wrapper .top-section .right-text p{
+    color: var(--text-medium);
+    font-size: 6rem;
+    font-family: "Aboreto", system-ui;
+    /* background-color: aliceblue; */
+}
+.wrapper .left-wrapper .top-section .right-text .tag-line{
+    /* border: 1px solid black; */
+    width: 100%;
+    color: var(--text-medium);
+    font-size: 2.5rem;
+    align-items: center;
+    font-family: "Amarante", serif;
+    display: flex;
+    justify-content: end;
+}
+.wrapper .left-wrapper .top-section .right-text .tag-line span{
+    letter-spacing: 0.3rem;
+}
+.wrapper .left-wrapper .name-desgination{
+    height: 40%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+}
+.wrapper .left-wrapper .name-desgination .name-div{
+    margin: 2rem 3rem 1rem 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.wrapper .left-wrapper .name-desgination .name-div span{
+    font-family: "Rouge Script", cursive;
+    font-size: 6rem;
+    letter-spacing: 7px;
+    font-weight: 500;
+}
+.wrapper .left-wrapper .name-desgination .designation-div{
+    margin: 0 3rem;
+}
+.wrapper .left-wrapper .name-desgination .designation-div span{
+    /* border: 1px solid black; */
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.wrapper .right-wrapper{
+    width: 40%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.wrapper .right-wrapper img{
+    width: 80%;
+    object-fit: cover;
+
+}
+
+/* hero section end */
+
+/* journey section start */
+.journey-div{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--dark-color);
+}
+/* journey section end */
