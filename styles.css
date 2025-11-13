@@ -34,44 +34,44 @@ body>img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 5rem;
+    min-height: 70px;
     backdrop-filter: blur(100px);
 }
 .navbar .nav-links ul{
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 20px;
 }
 .navbar .nav-links ul li{
     list-style: none;
     font-family: "Amarante", serif;
     font-weight: 500;
     letter-spacing: 2px;
-    font-size: 1.2rem;
+    font-size: 18px;
 }
 .navbar .nav-links ul li a{
     text-decoration: none;
     color: var(--text-dark);
 }
 .navbar .logo {
-    margin-left: 1rem;
+    margin-left: 25px;
 }
 .navbar .logo .text-portfolio{
     font-family: "Fleur De Leah", cursive;
-    font-size: 3rem;
+    font-size: 45px;
     font-weight: 700;
 }
 .navbar .btn-wrap{
-    margin-right: 1rem;
+    margin-right: 25px;
 }
 .navbar .btn-wrap .btn-nav{
     background-color: var(--dark-color);
     border: 1px solid var(--text-dark);
-    padding: 1rem 1.5rem;
+    padding: 10px 18px;
     border-radius: 2rem;
     color: var(--text-light);
     font-family: "Amarante", serif;
-    font-size: 1.2rem;
+    font-size: 15px;
     letter-spacing: 3px;
 }
 .navbar .toggler{
@@ -87,7 +87,7 @@ body>img{
 .wrapper .left-wrapper{
     /* border: 1px solid var(--text-dark); */
     width: 60%;
-    height: 100vh;
+    height: 90vh;
 }
 .wrapper .left-wrapper .top-section{
     /* background-color: aqua; */
@@ -105,12 +105,12 @@ body>img{
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    gap: 4rem;
+    gap: 48px;
     
 }
 .wrapper .left-wrapper .top-section .right-text p{
     color: var(--text-medium);
-    font-size: 6rem;
+    font-size: 65px;
     font-family: "Aboreto", system-ui;
     /* background-color: aliceblue; */
 }
@@ -118,14 +118,14 @@ body>img{
     /* border: 1px solid black; */
     width: 100%;
     color: var(--text-medium);
-    font-size: 2.5rem;
+    font-size: 25px;
     align-items: center;
     font-family: "Amarante", serif;
     display: flex;
     justify-content: end;
 }
 .wrapper .left-wrapper .top-section .right-text .tag-line span{
-    letter-spacing: 0.3rem;
+    letter-spacing: 3px;
 }
 .wrapper .left-wrapper .name-desgination{
     height: 40%;
@@ -136,23 +136,23 @@ body>img{
     align-items: end;
 }
 .wrapper .left-wrapper .name-desgination .name-div{
-    margin: 2rem 3rem 1rem 0;
+    margin: 15px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
 .wrapper .left-wrapper .name-desgination .name-div span{
     font-family: "Rouge Script", cursive;
-    font-size: 6rem;
+    font-size: 70px;
     letter-spacing: 7px;
     font-weight: 500;
 }
 .wrapper .left-wrapper .name-desgination .designation-div{
-    margin: 0 3rem;
+    margin: 0 15px;
 }
 .wrapper .left-wrapper .name-desgination .designation-div span{
     /* border: 1px solid black; */
     font-family: "Orbitron", sans-serif;
-    font-size: 1.3rem;
+    font-size: 18px;
     letter-spacing: 2px;
     font-weight: 600;
 }
@@ -173,9 +173,110 @@ body>img{
 /* hero section end */
 
 /* journey section start */
-.journey-div{
+.about-div{
+    margin:0 2.5vw;
     height: 100vh;
-    width: 100vw;
-    background-color: var(--dark-color);
+    width: 95vw;
+    border: 1px solid var(--text-dark);
+}
+.about-div .up-div{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+}
+.about-div .up-div .text-field{
+    /* background-color: aqua; */
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.about-div .up-div .text-field h3{
+    font-size: 40px;
+    font-family: "Aboreto", system-ui;
+    letter-spacing: 2px;
+    border-bottom: 2px solid black;
+    margin: 20px 0 0 30px;
+}
+.about-div .up-div .text-field span{
+    margin: 20px 0 0 60px;
+    font-size: 20px;
+    font-family: "Aboreto", system-ui;
+}
+.about-div .up-div .box-field{
+    height: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-div .up-div .box-field .box-about{
+    /* border: 1px solid black; */
+    min-width: 300px;
+    min-height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-div .up-div .box-field .box-about .num{
+    font-family: "Aboreto", system-ui;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+}
+.about-div .up-div .box-field .box-about .text{
+    font-family: "Aboreto", system-ui;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+/* ---------------------------------------------- */
+.about-div .low-div{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+}
+.about-div .low-div .text-field{
+    /* background-color: aqua; */
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.about-div .low-div .text-field h3{
+    font-size: 40px;
+    font-family: "Aboreto", system-ui;
+    letter-spacing: 2px;
+    border-bottom: 2px solid black;
+    margin: 20px 30px 0 auto;
+}
+.about-div .low-div .box-field{
+    height: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-div .low-div .box-field .box-about{
+    /* border: 1px solid black; */
+    min-width: 300px;
+    min-height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-div .low-div .box-field .box-about .num{
+    font-family: "Aboreto", system-ui;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+}
+.about-div .low-div .box-field .box-about .text{
+    font-family: "Aboreto", system-ui;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
 }
 /* journey section end */
